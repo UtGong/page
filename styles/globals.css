@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -12,5 +16,53 @@ a {
 }
 
 * {
+  box-sizing: border-box;
+}
+
+.line {
+  width: 25px;
+  height: 13px;
+  border-bottom: 3px solid;
+}
+
+.sepLine {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  height: 13px;
+  border-bottom: 1px solid;
+  opacity: 0.3;
+}
+
+.header {
+  font-family: 'Kdam Thmor Pro', sans-serif; 
+}
+
+.paragraph {
+  font-family: 'Tai Heritage Pro', serif;
+}
+
+.backgroundTitle {
+  font-family: 'Cinzel', serif;
+}
+
+figure {
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  box-shadow: 0px 1px 1px 0px rgb(240, 240, 240);
+  overflow: hidden;
+}
+
+figure img {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 125px;
+  margin-bottom: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
